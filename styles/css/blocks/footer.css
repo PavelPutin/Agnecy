@@ -1,0 +1,35 @@
+.footer {
+  background: var(--dark-color);
+  color: #a2a2a2;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+}
+
+.footer__social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-color);
+  background: #fff;
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50% 50%;
+  margin-left: 15px;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  background: var(--accent-color);
+  color: #fff;
+}

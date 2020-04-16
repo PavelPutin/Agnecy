@@ -1,0 +1,175 @@
+/* 1024 PX */
+@media (max-width: 1024px) {
+    html {
+        font-size: calc(.25em + 1vw);
+    }
+
+    .header__bottom {
+        display: block;
+    }
+
+    .header__offer {
+        text-align: center;
+    }
+
+    .header__video {
+        margin-top: 50px;
+    }
+
+
+    .provide__container {
+        display: block;
+    }
+
+    .provide__offer {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .gallery__button {
+        margin-bottom: 30px;
+    }
+}
+
+/* 768 PX */
+@media (max-width: 768px) {
+    html {
+        font-size: calc(0.5em + 1vw);
+    }
+
+    .nav__link {
+        padding: 25px 15px;
+    }
+
+    .header__video {
+        margin-top: 50px;
+    }
+
+    .team__content {
+        display: block;
+    }
+
+    .team__description {
+        display: block;
+        margin: 0 0 20px 0;
+    } 
+
+    .team__photo-container {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .newsletter__content {
+        margin: 0;
+    }
+
+    .section__header {
+        text-align: center;
+    }
+
+    .section__line {
+        margin: 0 auto;
+    }
+
+    .touch {
+        padding-bottom: 0;
+    }
+
+    .touch__form {
+        margin-right: 0;
+        margin-bottom: 5vh;
+    }
+
+    .contact-info {
+        justify-content: center;
+        flex-grow: 1;
+        text-align: center;
+        padding: 10vh 0;
+    }
+
+    .contact-info::after {
+        left: -50%;
+    }
+
+}
+
+/* 425PX */
+@media (max-width: 425px) {
+    .nav__link {
+        padding: 15px 10px;
+    }
+
+    .section__title {
+        margin-bottom: 20px;
+    }
+
+    .provide__text {
+        margin-bottom: 40px;
+    }
+
+    .provide__list {
+        display: block;
+    }
+
+    .provide__item {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .provide__item::before {
+        margin: 0 auto 20px auto;
+    }
+
+    .gallery__button {
+        min-width: 200px;
+        flex-grow: 1;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .newsletter__break {
+        display: block;
+    }
+
+    .touch__form {
+        grid-gap: 15px;
+    }
+
+    .touch__input {
+        grid-column: 1 / -1;
+    }
+
+    .footer__container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer__copyrights {
+        margin-bottom: 15px;
+    }
+
+    .footer__social {
+        justify-content: space-around;
+    }
+
+    .footer__social-link {
+        margin: 0;
+    }
+}
+
+/* 375 PX */
+@media (max-width: 375px) { 
+    .nav__link {
+        padding: 15px 5px;
+    }
+
+    .social-list__link {
+        margin-right: 10px;
+    }
+
+}
+
+/* 320 PX */
+@media (max-width: 320px) {
+
+}

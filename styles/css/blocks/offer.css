@@ -1,0 +1,14 @@
+.offer__title {
+    font-size: 3.75rem;
+    line-height: 1.25em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.offer__text {
+    /* line-height: 28px; */
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+

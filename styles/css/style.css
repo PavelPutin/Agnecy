@@ -1,0 +1,21 @@
+/* MAIN STYLES  */
+@import url(vars.css);
+@import url(core.css);
+@import url(height-proportion.css);
+
+/* BLOCKS */
+@import url(blocks/section.css);
+@import url(blocks/header.css);
+@import url(blocks/nav.css);
+@import url(blocks/offer.css);
+@import url(blocks/button.css);
+@import url(blocks/provide.css);
+@import url(blocks/products.css);
+@import url(blocks/gallery.css);
+@import url(blocks/team.css);
+@import url(blocks/newsletter.css);
+@import url(blocks/touch.css);
+@import url(blocks/footer.css);
+
+/* MEDIA */
+@import url(media.css);

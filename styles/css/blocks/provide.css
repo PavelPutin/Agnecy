@@ -1,0 +1,64 @@
+.provide {
+    /* padding: 105px 0; */
+    border-bottom: 1px solid #ececec;
+}
+
+.provide__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-gap: 135px;  
+}
+
+.provide__title {
+    margin-bottom: 40px;
+}
+
+.provide__text {
+    margin-bottom: 80px;
+}
+
+.provide__button {
+    padding: 0.5em 4em;
+}
+
+.provide__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    grid-gap: 50px;
+}
+
+.provide__item::before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.management::before {
+    background-image: url(../../img/icon-1.png);
+}
+
+.design::before {
+    background-image: url(../../img/icon-2.png);
+}
+
+.branding::before {
+    background-image: url(../../img/icon-3.png);
+}
+
+.animation::before {
+    background-image: url(../../img/icon-4.png);
+}
+
+.item__title {
+    font-size: 1.5rem;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

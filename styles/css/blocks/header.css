@@ -1,0 +1,42 @@
+/* HEADER CORE */
+.header {
+    position: relative;
+    padding-top: 2vh;
+    background: 
+        #f6f2f2
+        url(../../img/header-bg.jpg)
+        center bottom
+        /cover
+        fixed;
+}
+
+/* HEADER__TOP */
+.header__top {
+    background: var(--dark-color);
+}
+
+/* HEADER__BOTTOM */
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10vh 0;
+}
+
+.header__offer {
+    flex-basis: 46%;
+}
+
+.header__button {
+    padding: 0.5em 4em;
+}
+
+.header__video {
+    flex-basis: 43%;
+}
+
+.header__video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: calc(0.01em + 1vw);
+    /* font-size: 16px; */
+    line-height: 1.5em;
+    font-family: var(--main-font);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1282px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+section {
+    padding: 10vh 0;
+}

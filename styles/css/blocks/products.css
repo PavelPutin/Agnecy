@@ -1,0 +1,16 @@
+/* products */
+.products {
+    padding: 100px 0;
+}
+
+/* products__header */
+.products__header {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* products__line */
+.products__line {
+    margin: 0 auto;
+}

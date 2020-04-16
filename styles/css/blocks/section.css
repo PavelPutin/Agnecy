@@ -1,0 +1,21 @@
+/* .section__header {
+    max-width: 512px;
+} */
+
+.section__title {
+    font-size: 2.625rem;
+    line-height: 1.25em;    
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section__sub-title {
+    margin-bottom: 40px;
+}
+
+.section__line {
+    width: 20vw;
+    border: 1px solid var(--accent-color);
+}
